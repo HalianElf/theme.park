@@ -8,15 +8,10 @@ body {
 }
 
 /* Hide sidemenu */
-@media (min-width: 1944px){
-.sidemenu-open .sidemenu {
-    background: #000;
-    position: static;
-    height: auto;
-    box-shadow: 0 0 20px #000;
-    position: relative;
-    z-index: 1025;
-}
+  @media (min-width: 2084px) {
+  .sidemenu-open .sidemenu__bottom, .sidemenu-open .sidemenu__top {
+      display: block;
+  }
 }
 /* Dashboard dropdown menu */
 .search-dropdown__col_1 {
