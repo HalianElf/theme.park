@@ -10,7 +10,7 @@ body {
 /* Hide sidemenu */
   @media (min-width: 2084px) {
   .sidemenu-open .sidemenu__bottom, .sidemenu-open .sidemenu__top {
-      display: block;
+      display: block !important;
   }
 }
 /* Dashboard dropdown menu */
