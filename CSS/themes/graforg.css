@@ -8,7 +8,7 @@ body {
 }
 
 /* Hide sidemenu */
-@media (min-width: 3044px){
+@media (min-width: 1944px){
 .sidemenu-open .sidemenu {
     background: #000;
     position: static;
